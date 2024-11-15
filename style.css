@@ -1,0 +1,64 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* .header h1{
+    color: aqua;
+    background-color: gray;
+    padding: 1px;
+    text-align: left;
+} */
+
+/* .navbar ul{
+    list-style-type: none;
+    display: flex;
+    background: yellowgreen;
+} */
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: bisque;
+    text-align: center;
+    padding: 16;
+    text-decoration: none;
+}
+
+.main{
+    color: brown;
+    background: black;
+} */
+
+
+
+ul {
+    list-style-type: none; /* Removes bullets from the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow: hidden; /* Ensures proper layout of floated elements */
+    background-color: blueviolet; /* Sets background color */
+}
+
+li {
+    float: left; /* Aligns list items horizontally */
+}
+
+li a {
+    display: block; /* Makes the link behave like a block element */
+    color: bisque; /* Sets text color */
+    text-align: center; /* Centers text inside the link */
+    padding: 16px; /* Adds spacing inside the link */
+    text-decoration: none; /* Removes underline from the link */
+}
